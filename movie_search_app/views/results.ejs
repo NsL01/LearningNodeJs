@@ -1,0 +1,9 @@
+<h1>Results</h1>
+<ul>
+    <% data.Search.forEach((movie) => { %>
+        <li>
+            <%= movie.Title %><strong>- <%= movie.Year %></strong>
+        </li>
+    <% }) %>
+</ul>
+<a href="/">search again</a>
